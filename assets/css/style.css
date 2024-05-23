@@ -1,13 +1,14 @@
 /* * is a universial selector which essentially says I wont match one thing I'll match all 
     so everything in the document wont have a margin or padding unless applied to it 
 */
+/* global styles start  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-size: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
 
@@ -68,3 +69,66 @@ footer div {
 footer a {
     color: #024376;
 }
+
+section {
+    padding: 60px;
+   
+}
+
+/* global styles end  */
+
+/* hero style start  */
+.hero {
+     background-image: url("../images/hero-bg.jpg");
+     height: 600px;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+}
+
+/* hero style end  */
+
+/* form style start  */
+ .hero-form {
+    background-color: #fce138;
+    color: #024376;
+    padding: 20px;
+    width: 500px;
+    border: 3px solid #024376;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+ }
+
+ .hero-form h3 {
+    margin: 0;
+    font-size: 30px;
+ }
+
+ .hero-form p {
+    margin: 5px 0 15px 0;
+ }
+
+ .form-input {
+    font-size: 16px;
+    border: 1px solid #024376;
+    display: block;
+    padding: 7px 15px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+ }
+
+ .hero-form label {
+    margin: 0 5px;
+ }
+
+ .hero-form button {
+    background-color: #024376;
+    padding: 10px 20px;
+    color: #fce138;
+    border: none;
+    font-size: 16px;
+ }
+
+/* form style end  */
