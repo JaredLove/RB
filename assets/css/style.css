@@ -277,6 +277,17 @@ section {
     font-style: normal;
 }
 
+.contact-info a {
+    color: #fce138;
+}
+
 
 
 /* reach out section styles end */
+
+
+/* media sizes  start */
+
+@media screen  {
+    
+}
